@@ -1,0 +1,195 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* styles.css */
+
+/* Styling tambahan untuk responsif */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    .project {
+        padding: 15px;
+    }
+}
+
+/* styles.css */
+
+#contact {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* styles.css */
+
+.project {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.project.animate {
+    opacity: 1;
+}
+
+/* styles.css */
+
+.project img {
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+}
+
+button[type="submit"] {
+    /* CSS lainnya */
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Contoh media queries untuk responsif */
+@media (max-width: 768px) {
+    /* Gaya CSS untuk layar berukuran kecil (misalnya smartphone) */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Gaya CSS untuk layar sedang (misalnya tablet) */
+}
+
+@media (min-width: 1025px) {
+    /* Gaya CSS untuk layar besar (misalnya desktop) */
+}
+
+/* Contoh menggunakan Flexbox untuk tata letak responsif */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+/* Contoh penggunaan prefix vendor */
+.example {
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
