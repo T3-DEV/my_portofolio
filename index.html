@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majelis Hadroh Al-Ikhsan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Portofolio Hadroh Al-Ikhsan</h1>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#about">Tentang Saya</a></li>
+                <!-- Tambahkan lebih banyak link navigasi jika diperlukan -->
+            <p>Selamat datang di portofolio saya. Saya adalah seorang programmer yang passionate dalam menciptakan solusi teknologi.</p>
+        </div>
+    </header>
+
+    <section id="projects">
+    <div class="container">
+        <h2>Proyek Terbaru</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="project1.jpg" alt="Project 1">
+            <p>Deskripsi singkat tentang Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec augue est. Sed eu risus sed lacus sodales facilisis sit amet id nisl.</p>
+            <a href="#" class="btn">Detail</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <img src="project2.jpg" alt="Project 2">
+            <p>Deskripsi singkat tentang Project 2. Phasellus malesuada lectus eu tortor interdum, eget aliquet augue consequat.</p>
+            <a href="#" class="btn">Detail</a>
+        </div>
+        <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h2>Hubungi Saya</h2>
+        <form id="contact-form" method="post" action="send-email.php">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Majelis Sholawat Hadroh Al-Ikhsan.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+<!-- Contoh menggunakan cache-control -->
+<meta http-equiv="Cache-Control" content="max-age=3600">
+
+<!-- Contoh kode untuk menambahkan Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
